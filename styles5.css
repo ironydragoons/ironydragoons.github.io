@@ -1,0 +1,463 @@
+/*
+  Free to use CSS template by Katie (#106445).
+  This code may be altered, edited, or re-uploaded. 
+  This template may be used to create paid codes (pre-mades and commissions).
+  Please do NOT remove this credit, unless your coding becomes unrecognizable from this one! 
+*/
+
+
+/* FONT (From Google Fonts) */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/* BACKGROUND */
+
+body {
+	background: url("http://i.imgur.com/ReR1oBP.png") center center fixed;
+	background-size: 100%;
+	font-family: font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+}
+
+
+/* FEED ALL, PLAY ALL */
+
+.feature {
+	background: rgba(79, 71, 99, 0.6) !important;
+	color: #FFFFFF !important;
+	border: none !important;
+	border-radius: 5px !important;
+}
+
+
+/* TOPBAR ("Welcome back, ___"), NAVBAR (Den/Crossroads/Etc.) */
+
+.topbar {
+	background: rgba(79, 71, 99, 1);
+	border: none;
+	border-top: none;
+	color: #FFFFFF;
+	border-radius: 5px;
+	font-family: font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+	background: rgba(79, 81, 99, 0.46);
+	border-bottom: none;
+	font-family: font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	border-radius: 5px;
+}
+
+.navbar li a {
+	color: #FFFFFF !important;
+}
+
+/* NAVBAR HOVER COLOR */
+
+.navbar li a:hover {
+	background: rgba(79, 81, 99, 0.6) !important;
+}
+
+
+/* MAIN PANEL */
+
+/* RIGHT SIDE */
+.container.main {
+	background: rgba(79, 81, 99, 0.46);
+	border: none;
+	box-shadow: none;
+	border-radius: 5px;
+}
+
+/* LEFT SIDE */
+.col-md-9 {
+	background: none;
+}
+
+
+/* BREADCRUMB (Home / Den) */
+
+.breadcrumb {
+	background: rgba(79, 71, 99, 0.6);
+}
+
+.breadcrumb .active {
+	color: #000000;
+}
+
+
+/* ALERTS (ie. "Your lionesses have returned from hunting!") */
+
+.alert {
+	background: rgba(79, 71, 99, 0.6);
+	border: none;
+	color: #000000;
+}
+
+.alert-warning,
+.alert-danger {
+	background: rgba(79, 71, 99, 0.6);
+	color: #FFFFFF;
+}
+
+
+/* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
+
+.feature,
+div.left {
+	background: rgba(209, 164, 118, 0.6);
+	border: none;
+}
+
+
+/* ENERGY BARS, ACHIEVEMENTS, & BOOKMARKS */
+
+.panel {
+	background: rgba(79, 71, 99, 0.6) !important;
+	box-shadow: none !important;
+	border: none !important;
+	color: #FFFFFF !important;
+}
+
+/* ENERGY BAR BACKGROUND */
+.progress {
+	background: rgba(230, 208, 171, 0.6);
+	color: #000000 !important;
+}
+
+/* ENERGY BAR TEXT */
+.progress div {
+	color: #000000 !important;
+}
+
+/* ENERGY BAR COLOR */
+.progress-bar {
+	background: rgba(209, 164, 118, 0.6);
+	color: #000000 !important;
+}
+
+
+/* CHAT */
+
+.s-chat-message:nth-child(even) {
+	background: #000000 !important;
+	border: none !importa             nt;
+}
+
+.s-chat-message:nth-child(odd) {
+	background: #000000 !important;
+	border: none !important;
+}
+
+/* PINNED MESSAGE */
+.s-chat-message__pinned {
+	background: #000000 !important;
+	color: #000000 !important;
+	border: none !important;
+}
+
+.s-chat-message_timestamp {
+	color: #737373 !important;
+}
+
+div#chatMessageContainer {
+	border: none !important;
+}
+
+/* CURRENT CHANNEL TAB (MAIN, SALES, ETC.) */
+button#label_currentChannel {
+	border: none !important;
+	background: #FFFFFF !important;
+}
+
+
+/* BIGGEST HEADER ("___"'s DEN) */
+
+h1 {
+	color: #FFFFFF;
+	font-size: 72px;
+	text-align: center;
+}
+
+
+/* MEDIUM HEADER */
+
+h2 {
+	color: #000000;
+	font-size: 24px;
+	text-align: center;
+}
+
+
+/* SMALL HEADER */
+
+h3 {
+	color: #000000 !important;
+	font-size: 14px !important
+}
+
+
+/* LION INFO TABLE (Level, Stats, Branch, Territory Count, Etc.) */
+
+
+/* PANEL BACKGROUND COLOR */
+.table {
+	background: rgba(79, 71, 99, 0.6);
+	border: none !important;
+	border-collapse: separate;
+	border-radius: 5px;
+}
+
+
+/* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
+.top,
+.bottom,
+th {
+	background: rgba(209, 164, 118, 0.6) !important;
+	color: #000 !important;
+	border-radius: 5px;
+}
+
+
+/* Block of color where "Territory Description, Player Name, Avatar URL" etc. are */
+
+.table .left {
+	background: rgba(209, 164, 118, 0.6)
+}
+
+/* Affects the color behind your territory description, player name, etc. */
+
+input,
+select,
+textarea {
+	background: rgba(209, 164, 118, 0.6) !important;
+	border: none !important;
+	border-color: black;
+	border-radius: 5px;
+	box-shadow: none !important;
+	color: black !important;
+	text-shadow: none !important;
+}
+
+
+/* Color behind "Level, Stats, Branch, Territory" etc. */
+
+.inner-table .left {
+	background: rgba(209, 164, 118, 0.6) !important;
+}
+
+
+/* Color behind the number of all of the things above */
+
+.inner-table .right {
+	background: rgba(230, 208, 171, 0.6)
+}
+
+/* IGNORE */
+.right_odd {
+	background: none !important;
+}
+
+
+/* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
+
+.item-header {
+	background: rgba(209, 164, 118, 0.6) !important;
+	color: #000000  !important;
+}
+
+.item {
+	background: rgba(79, 71, 99, 0.6) !important;
+	border: none !important;
+}
+
+
+/* BEETLE MOUND TOPBAR (Where it says Beetle Training Grounds, Beetle Battling, etc.) */
+
+.sub_menu {
+	background: rgba(0, 0, 0, 0.6) !important;
+}
+
+.sub_menu_item_selected {
+	background: rgba(0, 0, 0, 0.6) !important;
+}
+
+
+/* Affects the color behind "_ Unsorted", "_ Pregnant Lionesses", etc. and cave/mound names */
+
+.cave-grid,
+.mound-grid {
+	background: rgba(209, 164, 118, 0.6);
+	border: none !important;
+}
+
+
+/* LINKS & LINK HOVER COLOR */
+
+a:link,
+a:visited {
+	color: #000000 !important;
+}
+
+a:hover {
+	color: #000000 !important;
+}
+
+
+/* BOXES (Copy paste to add more or less) */
+
+.boxcontainer {
+	background: none;
+	height: auto;
+	padding: 0px;
+	display: flex;
+	justify-content: center
+}
+
+.Box1 {
+	float: left;
+	background: rgba(0, 0, 0, 0.6);
+	color: #000000 ;
+	padding: 15px;
+	border: none;
+	border-radius: 5px;
+	margin: 5px;
+	height: 300px;
+	width: 350px;
+	overflow: auto;
+	margin-bottom: 25px;
+	transition: 1s /* HOW FAST HOVER BOX EXPANDS TO FULL SIZE */7
+}
+
+/* HOVER BOX (SIZE WHEN HOVERING OVER) */
+.Box1:hover {
+	overflow-y: auto;
+}
+
+.Box2 {
+	float: left;
+	background: rgba(0, 0, 0, 0.6);
+	color: #000000 ;
+	padding: 15px;
+	border: none;
+	border-radius: 5px;
+	margin: 5px;
+	height: 300px;
+	width: 350px;
+	overflow: hidden;
+	margin-bottom: 25px;
+	transition: 1s /* HOW FAST HOVER BOX EXPANDS TO FULL SIZE */
+}
+
+/* HOVER BOX (SIZE WHEN HOVERING OVER) */
+.Box2:hover {
+	overflow-y: auto;
+}
+
+
+/* SCROLL BAR */
+
+::-webkit-scrollbar {
+	width: 7px;
+	height: 7px;
+}
+
+
+/* SCROLL BAR BACKGROUND */
+
+::-webkit-scrollbar-track {
+	background: #000000;
+}
+
+
+/* SCROLL BAR "THUMB" */
+
+::-webkit-scrollbar-thumb {
+	background: #000000;
+	border-radius: 4px;
+}
+
+
+/* LION AND USER AVATAR OPACITY */
+
+div#lion_image {
+	opacity: 0.6;
+}
+
+table#player img {
+	opacity: 0.6;
+}
+
+
+/* CIRCULAR LION AND USER AVATAR */
+
+div#lion_image {
+	border-radius: 50% !important;
+	overflow: hidden;
+	margin-top: 19px;
+	margin-left: 6px;
+}
+
+table#player img {
+	border-radius: 50% !important;
+	overflow: hidden;
+}
+
+
+/* LIODEN LOGO REPLACER */
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+	content: url('https://imgur.com/a/4lp6DVA');
+}
+
+
+/* PREGNANT LIONESSES */
+
+div.cave-grid>img {
+	content: url('https://static.lioden.com/images/layout/nestingbanner.png')!important;
+}
+
+
+/* CAVES (Copy paste to add more) */
+
+a[href$="cave.php?id=103050"]>div.cave-grid>img {
+	content: url('https://static.lioden.com/images/dynamic/backgrounds/kunzitecrystals.png')!important;
+
+a[href$="cave.php?id=93708"]>div.cave-grid>img {
+	content: url('https://static.lioden.com/images/dynamic/backgrounds/hematitecave.png')!important;
+
+a[href$="cave.php?id=53398"]>div.cave-grid>img {
+	content: url('https://static.lioden.com/images/dynamic/backgrounds/rhodonitecave.png')!important;
+
+a[href$="cave.php?id=244375"]>div.cave-grid>img {
+	content: url('https://static.lioden.com/images/dynamic/backgrounds/tanzanitecrystals.png')!important;
+
+a[href$="cave.php?id=254854"]>div.cave-grid>img {
+	content: url('https://static.lioden.com/images/dynamic/backgrounds/opalcav1.png')!important;
+}
+
+
+/* UNSORTED */
+
+a[href$="unsorted.php?id=USERID"]>div.cave-grid>img {
+	content: url('https://static.lioden.com/images/layout/unsortedlionsbanner.png')!important;
+}
+
+
+/* PRIDE OVERVIEW */
+
+a[href$="lionoverview.php?id=USERID"]>div.cave-grid>img {
+	content: url('https://static.lioden.com/images/layout/prideoverviewbanner.png')!important;
+}
+
+
+/* MOUNDS */
+
+.mound-grid img {
+	background: url('https://static.lioden.com/images/layout/beetlemound.png');
+	width: 0;
+	height: 0;
+	padding-top: 80px;
+	padding-right: 130px;
+}
